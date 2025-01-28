@@ -1,0 +1,27 @@
+body {
+    background-color:rgb(43, 41, 41)
+
+}
+
+h1 { text-align:center;
+    color: rgb(39, 202, 77); 
+    font-family: "electrolize"
+}
+
+h2 {text-align: center;
+    color:rgb(39, 202, 77); 
+    font-family: "electrolize"}
+
+p {
+    border-style:dashed;
+    border-width: 4px;
+    border-color: rgb(39, 202, 77);
+    padding: 20px;
+    color:white;
+    font-family: "electrolize";
+    line-height: 180%;
+    
+}
+
+.DrPeter {color:rgb(144, 255, 170);}
+.happening {color:rgb(111, 111, 111);}
