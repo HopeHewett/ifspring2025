@@ -1,0 +1,94 @@
+html {font-family: "Archivo Narrow", serif;}
+body {margin: 0}
+
+header {background-color: rgba(255, 0, 0, .5);
+        padding:166px 0 188px 0;
+        background-image: url(../images/background-squirrel.jpg);
+        background-size: cover;
+        background-position: center;}
+
+
+header h1 {text-align: center;
+            margin:0 0 10px 0;
+            font-size: 60pt;
+            line-height: 1;
+            color:beige}
+
+header h2 {text-align: center;
+            font-size: 30px;
+            line-height: 1;
+            margin: 0;
+            color:beige}
+
+h3 {margin: 0 0 38px 0;
+    text-align: center;
+    font-size: 40px;
+    line-height: 1;}
+
+p {font-size: 18px;
+    line-height: 1.4;}
+
+section#intro {padding-top: 53px;
+                padding-bottom: 36px;}
+
+section div.column {width: 960px;
+                    margin: auto}
+        
+section#intro {background-color: rgba(25, 79, 25, 0.894);}
+
+section#intro img {width: 400px;
+                    height: 300px;
+                    float: right;
+                    border: 1px solid black;
+                    margin: 0 0 20px 38px}
+
+section ul.column2 {width: 960px;
+                    margin: auto}
+
+section .grid {padding-top: 47px;
+                color:beige;
+                background-color: rgba(92, 59, 15, 0.457);
+                padding-bottom: 39px; }     
+
+
+section .grid img {width: 200px;
+                    height: 150px;
+                   float: left;
+                    padding-bottom: 24px;
+                    padding-right: 12px;}
+
+section .grid ul {display: grid;
+                    padding:0 ;
+                    grid-template-columns: 1fr 1fr;
+                    list-style: none}
+
+section .grid h4 {margin: 0;
+                font-size: 20px;} 
+
+section .grid p {margin: 0;
+                padding-right: 40px;
+                padding-top: 8px;
+                }
+
+section#moreinfo {background-color: rgba(245, 245, 220, 0.434);
+                    padding-bottom: 70px;
+                    color:rgb(92, 58, 15);}
+
+section .info {width: 720px;
+                    margin: auto;
+                padding-top:50px}
+
+section .info p {font-size: 26px;
+                text-align: center;
+                line-height: 1.4;}
+
+
+footer {background-color: rgba(25, 79, 25, 0.894);
+        color:beige;
+        padding-top: 41px;
+        padding-bottom: 70px}
+
+footer p {margin: 0px;
+        padding-left: 312px;
+        text-align: left;
+        font-size: 18px;} 
