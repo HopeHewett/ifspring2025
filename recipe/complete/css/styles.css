@@ -1,0 +1,137 @@
+body {
+    font-family: "puffin-display-soft", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    margin:0;
+    color: rgb(56, 66, 114);
+    background-color: rgb(213, 226, 237);}
+
+header {display: flex;
+        padding-bottom: 4%;
+        color: rgb(56, 66, 114);
+        background-image: url("../images/lace_background.jpg");
+        background-size: contain;
+        margin-bottom: 0;}
+
+header img {width: 30%;
+            margin-left: 8%;
+            margin-top: 6%;
+            float:left}
+
+@media (min-width: 640px) {
+                header h1 { font-size: 50pt; 
+                            padding-left: 4%;
+                                margin-top: 13%;}
+              }
+
+@media (max-width: 640px) {
+                header h1 { font-size: 30pt; 
+                            align-self: center;
+                            padding-left: 4%;
+                            margin-top: 13%;
+                                }
+              }
+
+              @media (max-width: 380px) {
+                header h1 { font-size: 20pt; 
+                            align-self: left;
+                            padding-left: 4%;
+                            margin-top: 13%;}
+              }
+
+              @media (max-width: 640px) {
+                section p.one { font-size: 10pt; 
+                            align-self: left;
+                            background-color: rgb(253, 253, 249);}
+                }
+
+section p.one {margin-top: 0;}
+
+
+                @media (min-width: 640px) {
+                    section p.one { font-size: 12pt; 
+                                align-self: left;
+                                background-color: rgb(253, 253, 249);}
+                    }
+
+section#description {background-color: rgb(253, 253, 249);
+                    color: rgb(56, 66, 114);
+                margin-bottom: 5%;}
+
+section p.one {padding-top: 4%;
+        padding-left: 8%;
+        padding-right: 5%;
+        padding-bottom: 1%;
+        background-color: rgb(253, 253, 249);
+        font-weight: bold;}
+
+section p.two {padding-top: 1%;
+            padding-left: 8%;
+            padding-right: 5%;
+            padding-bottom: 1%;
+            background-color: rgb(253, 253, 249);
+            font-size: 12pt;}
+
+section h2 {font-size: 16pt;}
+
+ section p.i, h2 {  width: 70%;
+                padding-top: 1%;
+                margin-left: 20%;
+                padding-left: 8%;
+                padding-right: 5%;
+                padding-bottom: 1%;
+                margin-bottom: 0;
+                margin-top: 0;
+                border-style: solid;
+                background-color: rgb(253, 253, 249);
+                border-color: rgb(253, 253, 249);
+                font-size: 10pt;
+                line-height: 13pt;}
+
+ @media (max-width: 834px) {
+                        section#ingredients { margin-right: 40%;} 
+                }
+
+@media (max-width: 400px) {
+                        section#ingredients { margin-right: 20%;} 
+                }
+
+ @media (min-width: 834px) {
+                                section#ingredients { margin-right: 60%; 
+                                                       } }
+
+h3 {margin-left: 6%;
+        font-size: 20pt;
+        margin-bottom: 0%;
+        margin-top: 2%;}
+
+ol {margin-left: 6%;
+   line-height: 18pt;
+   margin-top: 2%;
+   width: 80%;}
+
+section#instructions li {padding: 5%;}
+
+ul {display: grid;
+        list-style: none;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+        padding: 2%;
+        margin: 4%;
+        justify-content: center;
+        margin-top: 0%;}
+
+img.image-gallery { max-width: 100%;}
+
+section#gallery li {margin: 4%;}
+
+section#gallery li div {font-size: 80%;}
+
+footer p {padding-top: 2%;
+        padding-left: 6.5%;
+        padding-right: 5%;
+        padding-bottom: 3%;
+        background-color: rgb(253, 253, 249);
+        margin-bottom: 0;}
+
+
+
