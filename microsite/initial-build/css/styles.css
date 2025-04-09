@@ -1,0 +1,25 @@
+html {color: white;
+    font-family: "archivo-extra-condensed", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+    letter-spacing: 10%;}
+
+body {background-color: #434345;}
+
+header {display: flex;
+        margin: 0;}
+
+nav {margin-top: 2%;
+    white-space: nowrap;
+    }
+
+nav a {margin-left: 5%;
+    color: white;}
+
+p {width: 60%;
+    margin-right: auto;
+    margin-left: auto;}
+
+h4 {width: 60%;
+    margin-right: auto;
+    margin-left: auto;}
